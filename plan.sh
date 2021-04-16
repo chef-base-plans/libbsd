@@ -22,6 +22,7 @@ pkg_build_deps=(
   core/patch
   core/pkg-config
   core/sed
+  core/libmd
 )
 pkg_include_dirs=(include)
 pkg_lib_dirs=(lib)
