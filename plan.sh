@@ -12,6 +12,7 @@ pkg_source="https://libbsd.freedesktop.org/releases/${pkg_name}-${pkg_version}.t
 pkg_shasum="ff95cf8184151dacae4247832f8d4ea8800fa127dbd15033ecfe839f285b42a1"
 pkg_deps=(
   core/glibc
+  core/libmd
 )
 pkg_build_deps=(
   core/coreutils
@@ -22,7 +23,6 @@ pkg_build_deps=(
   core/patch
   core/pkg-config
   core/sed
-  core/libmd
 )
 pkg_include_dirs=(include)
 pkg_lib_dirs=(lib)
